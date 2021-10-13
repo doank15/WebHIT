@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+.header{
+    width: 98%;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    color: red;
+    padding: 20px;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+table,th,td{
+    border: 1px solid black;
+}
+.des{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.note{
+    margin-bottom: 20px;
+}
+.items{
+    width: 98%;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+}
+.item{
+    display: block;
+}
+.item__title{
+display: block;
+margin-bottom: 10px;
+}
