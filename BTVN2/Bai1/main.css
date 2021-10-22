@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: initial;
+}
+html {
+    font-family: "Popins", sans-serif;
+    color: rgb(94, 91, 91);
+    background-color: #fff;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: #ccc;
+
+}
+.container {
+    height: 600px;
+    width: 400px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow:5px 1 #333;
+}
+.form{
+    margin: 20px 20px;
+    position: relative;
+}
+.icon{
+    z-index: 999;
+    color: rgb(185, 184, 184);
+}
+hr{
+    opacity: 0.5;
+}
+a{
+    text-decoration: none;
+}
+.input__item {
+    position: absolute;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    height: 100%;
+    background-color: #fff;
+    font-size: 16px;
+    color: #333;
+}
+.content__top{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.content__title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.content__close{
+    padding: 5px 9px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.content__close:hover{
+    opacity: 0.7;
+}
+.login__google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0 30px;
+}
+.login__google__text{
+    margin-left: 5px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.form__input{
+    margin-top: 25px;
+}
+label{
+    font-size: 16px;
+    bottom: 10px;
+    font-weight: 700;
+}
+.input{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: space-between;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    height: 15px;
+    border: 1px solid #ccc;
+}
+.input__icon{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+.input__icon:hover{
+    opacity: 0.7;
+}
+.checked{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.check{
+    margin-right: 5px;
+}
+.checked__text{
+    color: #333;
+    opacity: 0.8;
+}
+.login__btn{
+    padding: 10px 0;
+    text-align: center;
+    background-color: rgba(81, 81, 255, 0.9);
+    border-radius: 5px;
+    margin: 25px 0;
+    cursor: pointer;
+}
+.login__text{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.subtitle{
+    display: block;
+    color: rgb(81, 150, 253);
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.footer{
+   margin: 40px 0 20px 0 ;
+    text-align: center;
+}
+.footer__notice{
+    color: #333;
+    opacity: 0.7;
+    margin-bottom: 15px;
+    
+}
+.footer__des{
+    font-weight: 600;
+    color: rgb(81, 150, 253);
+}
